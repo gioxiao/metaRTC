@@ -76,3 +76,12 @@ ui_*.h
 
 # Vendored libs (e.g. libsrtp) — fuzzer seed corpora; not needed for IPC/WebRTC build
 **/fuzzer/corpus/
+
+# Full dependency sources downloaded locally for build (tracked tree keeps headers only)
+thirdparty/libsrtp-*/
+thirdparty/libyuv-master/
+thirdparty/mbedtls-*/
+thirdparty/openssl-*/
+thirdparty/opus-*/
+thirdparty/speexdsp-*/
+thirdparty/usrsctp-*/
