@@ -1,0 +1,78 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Visual Studio / MSVC
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.opensdf
+*.sdf
+
+# CMake — out-of-tree
+build/
+out/
+cmake-build*/
+cmake-build-*/
+
+# CMake — in-tree leftovers
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Ninja / Makefile generators
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+Makefile
+*.ninja
+
+# Per-subproject build dirs (libmetartc8, libyangwhip8, demo, …)
+**/build/
+
+# Object / link / archives (local builds)
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Qt (demo / metapushstream8)
+*_autogen/
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+
+
+# Vendored libs (e.g. libsrtp) — fuzzer seed corpora; not needed for IPC/WebRTC build
+**/fuzzer/corpus/
